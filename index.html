@@ -27,7 +27,8 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero reveal" id="top">
+        <div class="hero-blob"></div>
         <div class="container hero-grid">
           <div>
             <p class="eyebrow">Luxury Pet Care Experience</p>
@@ -42,20 +43,20 @@
             </div>
             <div class="hero-stats">
               <article>
-                <h3>1,200+</h3>
+                <h3 data-counter="1200">0</h3>
                 <p>Happy Pets Styled</p>
               </article>
               <article>
-                <h3>4.9★</h3>
+                <h3 data-counter="4.9">0</h3>
                 <p>Average Rating</p>
               </article>
               <article>
-                <h3>8+ Years</h3>
-                <p>Professional Experience</p>
+                <h3 data-counter="8">0</h3>
+                <p>Years of Experience</p>
               </article>
             </div>
           </div>
-          <div class="hero-card">
+          <div class="hero-card float">
             <h2>Today’s Offer</h2>
             <p>Get 15% off on first-time full-service grooming packages.</p>
             <ul>
@@ -68,22 +69,22 @@
         </div>
       </section>
 
-      <section id="services" class="section">
+      <section id="services" class="section reveal">
         <div class="container">
           <p class="eyebrow">Our Services</p>
           <h2>Everything Your Pet Needs</h2>
           <div class="cards">
-            <article class="card">
+            <article class="card hover-rise">
               <h3>Signature Grooming</h3>
               <p>Complete styling, coat conditioning, and finishing tailored to breed and personality.</p>
               <span>Starting at $65</span>
             </article>
-            <article class="card">
+            <article class="card hover-rise">
               <h3>Pet Spa Therapy</h3>
               <p>Relaxing aromatherapy bath, paw balm treatment, and gentle skin-soothing products.</p>
               <span>Starting at $45</span>
             </article>
-            <article class="card">
+            <article class="card hover-rise">
               <h3>Quick Freshen-Up</h3>
               <p>Ideal for between appointments: face trim, paw tidy, hygiene care, and coat brushing.</p>
               <span>Starting at $30</span>
@@ -92,7 +93,7 @@
         </div>
       </section>
 
-      <section id="about" class="section alt">
+      <section id="about" class="section alt reveal">
         <div class="container about-grid">
           <div>
             <p class="eyebrow">Why Families Choose Us</p>
@@ -112,32 +113,32 @@
         </div>
       </section>
 
-      <section id="gallery" class="section">
+      <section id="gallery" class="section reveal">
         <div class="container">
           <p class="eyebrow">Pet Transformations</p>
           <h2>Recent Styling Sessions</h2>
           <div class="gallery-grid">
-            <div class="photo">Before & After: Teddy Cut</div>
-            <div class="photo">Luxury Coat Blowout</div>
-            <div class="photo">Spa Day Glow-Up</div>
+            <figure class="photo photo-1"><figcaption>Before & After: Teddy Cut</figcaption></figure>
+            <figure class="photo photo-2"><figcaption>Luxury Coat Blowout</figcaption></figure>
+            <figure class="photo photo-3"><figcaption>Spa Day Glow-Up</figcaption></figure>
           </div>
         </div>
       </section>
 
-      <section id="testimonials" class="section alt">
+      <section id="testimonials" class="section alt reveal">
         <div class="container">
           <p class="eyebrow">Client Reviews</p>
           <h2>Trusted By Pet Parents</h2>
           <div class="cards">
-            <article class="card testimonial">
+            <article class="card testimonial hover-rise">
               <p>“Our golden retriever has never looked better. Gentle team and beautiful finish!”</p>
               <span>— Priya M.</span>
             </article>
-            <article class="card testimonial">
+            <article class="card testimonial hover-rise">
               <p>“Clean, professional, and always on time. My cat stayed calm the entire visit.”</p>
               <span>— Daniel R.</span>
             </article>
-            <article class="card testimonial">
+            <article class="card testimonial hover-rise">
               <p>“The first groomer that truly understood our poodle’s coat. Highly recommended.”</p>
               <span>— Aisha K.</span>
             </article>
@@ -145,14 +146,14 @@
         </div>
       </section>
 
-      <section id="book" class="section book">
+      <section id="book" class="section book reveal">
         <div class="container book-wrap">
           <div>
             <p class="eyebrow">Book An Appointment</p>
             <h2>Give Your Pet The Elite Styling Experience</h2>
             <p>Call us at <strong>(555) 204-PAWS</strong> or reserve a slot online in under 2 minutes.</p>
           </div>
-          <a href="#" class="btn btn-primary">Reserve Now</a>
+          <a href="#top" class="btn btn-primary">Reserve Now</a>
         </div>
       </section>
     </main>
@@ -163,5 +164,7 @@
         <p>Mon–Sat: 9:00 AM – 7:00 PM</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
